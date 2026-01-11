@@ -8,8 +8,4 @@ This repository contains reinforcement learning and inverse kinematics code for 
 - logs_dobot_*/: Training logs for TensorBoard
 - requirements.txt: Python dependencies
 
-## Excluded
-- pybullet_robots/: Not needed for core RL/IK workflows
-- senior_design/: Not needed for core RL/IK workflows
-
 See requirements.txt for dependencies. Run training and evaluation scripts from rl_ik/ as described in the README and code comments.
