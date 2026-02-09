@@ -1,0 +1,44 @@
+# Ignore everything by default
+/*
+
+# But not these files/folders!
+!rl_ik/
+!models/
+!logs_dobot_dqn/
+!nn_ik/
+!requirements.txt
+!README.md
+!.gitignore
+
+# Ignore all logs and generated artifacts
+logs_dobot_sac_vel/
+logs_dobot_td3_vel/
+logs_nn_ik/
+logs_compare/
+
+# Ignore generated NN IK artifacts
+nn_ik/data/
+nn_ik/models/
+!README.md
+!.gitignore
+
+# Exclude oversized training log (local only)
+logs_dobot_sac_vel/train_step_log.csv
+
+# Ignore Python cache and temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Exclude pybullet_robots and senior_design explicitly
+pybullet_robots/
+senior_design/
